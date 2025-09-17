@@ -1,3 +1,3 @@
-# Simple To-Do REST API
+# RFID Authorization REST API
 
-This is a simple RESTful API for managing a to-do list to study single app Django project structure.
+This is a simple RESTful API for managing RFID authorization to study single app Django project structure.
