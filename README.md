@@ -17,22 +17,23 @@ The access levels are like the Resident Evil 2 video game, where the player can 
 ## 🌐 API Endpoints
 
 - Retrieve Card
-  `GET /Card/{id}/`
+  - Path: `/Card/{id}/`
+  - Method: `GET`
 
   - Response:
+    - Code: 200 OK
+    - Body:
 
-    Code: 200 OK
-
-    ```json
-    {
-    "id": "string",
-    "access_level": "string",
-    }
-    ```
+      ```json
+      {
+      "id": "string",
+      "access_level": "string",
+      }
+      ```
 
 - Create Card
-  `POST /Card/`
-
+  - Path: `/Card/`
+  - Method: `POST`
   - Request body:
 
     ```json
@@ -43,19 +44,19 @@ The access levels are like the Resident Evil 2 video game, where the player can 
     ```
 
   - Response:
+    - Code: 201 Created
+    - Body:
 
-    Code: 201 Created
-
-    ```json
-    {
-    "id": "string",
-    "access_level": "string",
-    }
-    ```
+      ```json
+      {
+      "id": "string",
+      "access_level": "string",
+      }
+      ```
 
 - Update Card
-  `PUT /Cards/{id}/`
-
+  - Path: `/Cards/{id}/`
+  - Method: `PUT`
   - Request body:
 
     ```json
@@ -65,19 +66,19 @@ The access levels are like the Resident Evil 2 video game, where the player can 
     ```
 
   - Response:
+    - Code: 200 OK
+    - Body:
 
-    Code: 200 OK
-
-    ```json
-    {
-    "id": "string",
-    "access_level": "string",
-    }
-    ```
+      ```json
+      {
+      "id": "string",
+      "access_level": "string",
+      }
+      ```
 
 - Destroy Card
-  `DELETE /Cards/{id}/`
+  - Path: `/Cards/{id}/`
+  - Method: `DELETE`
 
   - Response:
-
-    Code: 204 No Content
+    - Code: 204 No Content
