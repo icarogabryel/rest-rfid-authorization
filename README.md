@@ -20,16 +20,15 @@ The access levels are like the Resident Evil 2 video game, where the player can 
   - Path: `/Card/{id}/`
   - Method: `GET`
 
-  - Response:
-    - Code: 200 OK
-    - Body:
+  - Response code: 200 OK
+  - Response body:
 
-      ```json
-      {
-      "id": "string",
-      "access_level": "string",
-      }
-      ```
+    ```json
+    {
+    "id": "string",
+    "access_level": "string",
+    }
+    ```
 
 - Create Card
   - Path: `/Card/`
@@ -43,16 +42,15 @@ The access levels are like the Resident Evil 2 video game, where the player can 
     }
     ```
 
-  - Response:
-    - Code: 201 Created
-    - Body:
+  - Response code: 201 Created
+  - Response body:
 
-      ```json
-      {
-      "id": "string",
-      "access_level": "string",
-      }
-      ```
+    ```json
+    {
+    "id": "string",
+    "access_level": "string",
+    }
+    ```
 
 - Update Card
   - Path: `/Cards/{id}/`
@@ -65,20 +63,17 @@ The access levels are like the Resident Evil 2 video game, where the player can 
     }
     ```
 
-  - Response:
-    - Code: 200 OK
-    - Body:
+  - Response code: 200 OK
+  - Response body:
 
-      ```json
-      {
-      "id": "string",
-      "access_level": "string",
-      }
-      ```
+    ```json
+    {
+    "id": "string",
+    "access_level": "string",
+    }
+    ```
 
 - Destroy Card
   - Path: `/Cards/{id}/`
   - Method: `DELETE`
-
-  - Response:
-    - Code: 204 No Content
+  - Response code: 204 No Content
