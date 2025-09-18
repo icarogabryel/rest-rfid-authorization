@@ -1,6 +1,6 @@
 # 🪪 RFID Authorization REST API
 
-This is a simple RESTful API for managing RFID card authorization to study single minimalist Django project structure.
+This is a simple RESTful API for managing RFID card authorization to study single app minimalist Django project structure.
 
 ## 🧩 Business Rules
 
