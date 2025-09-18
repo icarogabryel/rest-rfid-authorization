@@ -17,7 +17,7 @@ The access levels are like the Resident Evil 2 video game, where the player can 
 ## 🌐 API Endpoints
 
 - Create Card
-  - Path: `/Card/`
+  - Path: `/card/`
   - Method: `POST`
   - Request body:
 
@@ -39,7 +39,7 @@ The access levels are like the Resident Evil 2 video game, where the player can 
     ```
 
 - Retrieve Card
-  - Path: `/Card/{id}/`
+  - Path: `/card/{id}/`
   - Method: `GET`
 
   - Response code: 200 OK
@@ -53,7 +53,7 @@ The access levels are like the Resident Evil 2 video game, where the player can 
     ```
 
 - Update Card
-  - Path: `/Cards/{id}/`
+  - Path: `/card/{id}/`
   - Method: `PUT`
   - Request body:
 
@@ -74,6 +74,6 @@ The access levels are like the Resident Evil 2 video game, where the player can 
     ```
 
 - Destroy Card
-  - Path: `/Cards/{id}/`
+  - Path: `/card/{id}/`
   - Method: `DELETE`
   - Response code: 204 No Content
