@@ -19,7 +19,7 @@ The access levels are like the Resident Evil 2 video game, where the player can 
 - Retrieve Card
   `GET /Card/{id}/`
 
-  - Responses:
+  - Response:
 
     Code: 200 OK
 
