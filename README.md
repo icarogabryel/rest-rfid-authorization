@@ -19,7 +19,7 @@ The access levels are like the Resident Evil 2 video game, where the player can 
 - Retrieve Card
   `GET /Card/{id}/`
 
-  - Response body:
+  - Responses:
 
     Code: 200 OK
 
@@ -42,7 +42,7 @@ The access levels are like the Resident Evil 2 video game, where the player can 
     }
     ```
 
-  - Response body:
+  - Response:
 
     Code: 201 Created
 
@@ -64,7 +64,7 @@ The access levels are like the Resident Evil 2 video game, where the player can 
     }
     ```
 
-  - Response body:
+  - Response:
 
     Code: 200 OK
 
@@ -78,6 +78,6 @@ The access levels are like the Resident Evil 2 video game, where the player can 
 - Destroy Card
   `DELETE /Cards/{id}/`
 
-  - Response body:
+  - Response:
 
     Code: 204 No Content
