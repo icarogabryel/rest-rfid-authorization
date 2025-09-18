@@ -16,20 +16,6 @@ The access levels are like the Resident Evil 2 video game, where the player can 
 
 ## 🌐 API Endpoints
 
-- Retrieve Card
-  - Path: `/Card/{id}/`
-  - Method: `GET`
-
-  - Response code: 200 OK
-  - Response body:
-
-    ```json
-    {
-    "id": "string",
-    "access_level": "string",
-    }
-    ```
-
 - Create Card
   - Path: `/Card/`
   - Method: `POST`
@@ -43,6 +29,20 @@ The access levels are like the Resident Evil 2 video game, where the player can 
     ```
 
   - Response code: 201 Created
+  - Response body:
+
+    ```json
+    {
+    "id": "string",
+    "access_level": "string",
+    }
+    ```
+
+- Retrieve Card
+  - Path: `/Card/{id}/`
+  - Method: `GET`
+
+  - Response code: 200 OK
   - Response body:
 
     ```json
