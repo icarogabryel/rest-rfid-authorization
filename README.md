@@ -20,6 +20,7 @@ The access levels are like the Resident Evil 2 video game, where the player can 
   `GET /Card/{id}/`
 
   - Response body:
+
     Code: 200 OK
 
     ```json
@@ -42,6 +43,7 @@ The access levels are like the Resident Evil 2 video game, where the player can 
     ```
 
   - Response body:
+
     Code: 201 Created
 
     ```json
@@ -63,6 +65,7 @@ The access levels are like the Resident Evil 2 video game, where the player can 
     ```
 
   - Response body:
+
     Code: 200 OK
 
     ```json
@@ -76,4 +79,5 @@ The access levels are like the Resident Evil 2 video game, where the player can 
   `DELETE /Cards/{id}/`
 
   - Response body:
+
     Code: 204 No Content
